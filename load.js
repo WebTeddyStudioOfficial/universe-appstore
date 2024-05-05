@@ -62,7 +62,7 @@ document.getElementById('appstore').innerHTML = `
 			<center>
 				<img class="apsimg" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"><br>
 				<h1>Make a new app</h1>
-				<p>To make a new app. Write all your code and send it RAW (don't send a file, send text) to <b>saltydevelopers@gmail.com</b><br>we will take care of your request and notify you if your app will be added to the next Universe Kernel update in the Appstore!</p>
+				<p>To make a new app. Write all your code and send it RAW (don't send a file, send text) to <b>saltydevelopers@gmail.com</b><br>we will take care of your request and notify you if your app will be added to the Appstore!</p>
 			</center>
 		</div>
 `;
