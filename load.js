@@ -70,8 +70,6 @@ document.getElementById('appstore').innerHTML = `
 	toggletheme();
 }
 
-renderAppstore();
-
 let shouldAppend = true;
 function append() {
     let srcs = [
@@ -89,4 +87,3 @@ function append() {
     });
 	}
 }
-append();
