@@ -66,6 +66,8 @@ document.getElementById('appstore').innerHTML = `
 			</center>
 		</div>
 `;
+	toggletheme();
+	toggletheme();
 }
 
 renderAppstore();
