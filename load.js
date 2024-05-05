@@ -60,7 +60,7 @@ document.getElementById('appstore').innerHTML = `
 		</div>
 		<div class="tabcontent" id="appstore-new">
 			<center>
-				<img class="apsimg" src="systemH/appstore/new.png"><br>
+				<img class="apsimg" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"><br>
 				<h1>Make a new app</h1>
 				<p>To make a new app. Write all your code and send it RAW (don't send a file, send text) to <b>saltydevelopers@gmail.com</b><br>we will take care of your request and notify you if your app will be added to the next Universe Kernel update in the Appstore!</p>
 			</center>
