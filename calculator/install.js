@@ -47,7 +47,7 @@ function installCalculator() {
 	</button>
     `;
 
-    appstyles.push("https://webteddystudioofficial.github.io/universe-appstore/program/calculator.css");
+    appstyles.push("https://webteddystudioofficial.github.io/universe-appstore/calculator/program/calculator.css");
 
     appcontent += `
 	<div class="window" id="calculator">
@@ -91,22 +91,22 @@ function installCalculator() {
 	
     appsdesk += `
 	<button class="padIcon" onClick="openApp('calculator')">
-	<img src="https://webteddystudioofficial.github.io/universe-appstore/calculator.png" class="padImage">
+	<img src="https://webteddystudioofficial.github.io/universe-appstore/calculator/calculator.png" class="padImage">
 	</button>
     `;
 
     installedApps.push("installCalculator");
 
-    appscripts.push("https://webteddystudioofficial.github.io/universe-appstore/program/calculator.js");
+    appscripts.push("https://webteddystudioofficial.github.io/universe-appstore/calculator/program/calculator.js");
 
 	var script = document.createElement('script');
-	script.src = "https://webteddystudioofficial.github.io/universe-appstore/program/calculator.js";
+	script.src = "https://webteddystudioofficial.github.io/universe-appstore/calculator/program/calculator.js";
 	document.head.appendChild(script);
 
     var link = document.createElement("link");
     link.rel = "stylesheet";
     link.type = "text/css";
-    link.href = "https://webteddystudioofficial.github.io/universe-appstore/program/calculator.css";
+    link.href = "https://webteddystudioofficial.github.io/universe-appstore/calculator/program/calculator.css";
     document.head.appendChild(link);
 
     saveApps();
