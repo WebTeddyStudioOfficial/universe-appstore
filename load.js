@@ -12,7 +12,7 @@ document.getElementById('appstore').innerHTML = `
 			<button class="padIcon" onClick="openTab('appstore-todo')"><img class="padImage" src="systemH/appstore/todo/todo.png"></button>
 			<button class="padIcon" onClick="openTab('appstore-timer')"><img class="padImage" src="systemH/appstore/timer/timer.png"></button>
 			<button class="padIcon" onClick="openTab('appstore-dog')"><img class="padImage" src="systemH/appstore/petdog/petdog.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-new')"><img class="padImage" src="systemH/appstore/new.png"></button>
+			<button class="padIcon" onClick="openTab('appstore-new')"><img class="padImage" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"></button>
 			<center>
 				<button class="warningButton" onClick="uninstallKeep()">Uninstall but keep saves</button><br><br>
 				<button class="warningButton" onClick="uninstallAll()">Uninstall all apps</button>
