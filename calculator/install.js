@@ -100,7 +100,7 @@ function installCalculator() {
     appscripts.push("systemH/appstore/calculator/program/calculator.js");
 
 	var script = document.createElement('script');
-	script.src = "systemH/appstore/calculator/program/calculator.css";
+	script.src = "systemH/appstore/calculator/program/calculator.js";
 	document.head.appendChild(script);
 
     var link = document.createElement("link");
