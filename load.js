@@ -69,3 +69,19 @@ document.getElementById('appstore').innerHTML = `
 }
 
 renderAppstore();
+
+function append() {
+    let srcs = [
+        "https://webteddystudioofficial.github.io/universe-appstore/todo/install.js",
+        "https://webteddystudioofficial.github.io/universe-appstore/clicker/install.js",
+        "https://webteddystudioofficial.github.io/universe-appstore/timer/install.js",
+        "https://webteddystudioofficial.github.io/universe-appstore/petdog/install.js",
+        "https://webteddystudioofficial.github.io/universe-appstore/calculator/install.js"
+    ];
+    srcs.forEach(function(src) {
+        let script = document.createElement("script");
+        script.src = src;
+        document.body.appendChild(script); // Changed from document.appendChild(script) to document.body.appendChild(script)
+    });
+}
+append();
