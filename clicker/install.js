@@ -5,6 +5,7 @@ function installClicker() {
     <div class="tabs">
 	<button class="tablink" onClick="openTab('clicker-home')">Home</button>
     	<button class="tabaccIcon" onClick="closeApp('clicker')"><img src="systemH/accessibility/close.png"></button>
+     <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
 		<button class="tabaccIcon" onClick="miniApp('clicker')"><img src="systemH/accessibility/minimize.png"></button>
     </div>
 	<div class="tabcontent" id="clicker-home">
@@ -44,6 +45,7 @@ function installClicker() {
     <div class="tabs">
 		<button class="tablink" onClick="openTab('clicker-home')">Home</button>
     	<button class="tabaccIcon" onClick="closeApp('clicker')"><img src="systemH/accessibility/close.png"></button>
+     <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
 		<button class="tabaccIcon" onClick="miniApp('clicker')"><img src="systemH/accessibility/minimize.png"></button>
     </div>
 	<div class="tabcontent" id="clicker-home">
