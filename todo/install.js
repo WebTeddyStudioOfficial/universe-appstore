@@ -4,7 +4,7 @@ function installTodo() {
 <div class="window" id="todo">
         <div class="tabs">
             <button class="tabaccIcon" onClick="closeApp('todo')"><img src="systemH/accessibility/close.png"></button>
-	    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
+	    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/fullscreen.png"></button>
             <button class="tabaccIcon" onClick="miniApp('todo')"><img src="systemH/accessibility/minimize.png"></button>
         </div>
         <div class="Todo-container">
@@ -33,7 +33,7 @@ function installTodo() {
 	<div class="window" id="todo">
         <div class="tabs">
             <button class="tabaccIcon" onClick="closeApp('todo')"><img src="systemH/accessibility/close.png"></button>
-	    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
+	    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/fullscreen.png"></button>
             <button class="tabaccIcon" onClick="miniApp('todo')"><img src="systemH/accessibility/minimize.png"></button>
         </div>
         <div class="Todo-container">
