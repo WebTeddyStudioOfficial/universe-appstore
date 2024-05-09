@@ -3,6 +3,7 @@ document.getElementById('appstore').innerHTML = `
 <div class="tabs">
 			<button class="tablink" onClick="openTab('appstore-home')">Home</button>
 			<button class="tabaccIcon" onClick="closeApp('appstore')"><img src="systemH/accessibility/close.png"></button>
+   <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/fullscreen.png"></button>
 			<button class="tabaccIcon" onClick="miniApp('appstore')"><img src="systemH/accessibility/minimize.png"></button>
 		</div>
 		<div class="tabcontent" id="appstore-home">
