@@ -4,6 +4,7 @@ function installTimer() {
         <div class="window" id="timer">
             <div class="tabs">
                 <button class="tabaccIcon" onClick="closeApp('timer')"><img src="systemH/accessibility/close.png"></button>
+                <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
                 <button class="tabaccIcon" onClick="miniApp('timer')"><img src="systemH/accessibility/minimize.png"></button>
             </div>
             <div class="timer-container">
@@ -28,6 +29,7 @@ function installTimer() {
         <div class="window" id="timer">
             <div class="tabs">
                 <button class="tabaccIcon" onClick="closeApp('')"><img src="systemH/accessibility/close.png"></button>
+                <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
                 <button class="tabaccIcon" onClick="miniApp('timer')"><img src="systemH/accessibility/minimize.png"></button>
             </div>
             <div class="timer-container">
