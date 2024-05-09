@@ -4,7 +4,7 @@ function installCalculator() {
 		<div class="window" id="calculator">
   <div class="tabs">
     <button class="tabaccIcon" onClick="closeApp('calculator')"><img src="systemH/accessibility/close.png"></button>
-    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
+    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/fullscreen.png"></button>
     <button class="tabaccIcon" onClick="miniApp('calculator')"><img src="systemH/accessibility/minimize.png"></button>
   </div>
   <div class="calculator">
@@ -54,7 +54,7 @@ function installCalculator() {
 	<div class="window" id="calculator">
   <div class="tabs">
     <button class="tabaccIcon" onClick="closeApp('clicker')"><img src="systemH/accessibility/close.png"></button>
-    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/maximize.png"></button>
+    <button class="tabaccIcon" onClick="togglefullscreen()"><img src="systemH/accessibility/fullscreen.png"></button>
     <button class="tabaccIcon" onClick="miniApp('clicker')"><img src="systemH/accessibility/minimize.png"></button>
   </div>
   <div class="calculator">
