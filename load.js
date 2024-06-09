@@ -7,14 +7,14 @@ document.getElementById('appstore').innerHTML = `
 			<button class="tabaccIcon" onClick="miniApp('appstore')"><img src="systemH/accessibility/minimize.png"></button>
 		</div>
 		<div class="tabcontent" id="appstore-home">
-			<h1>Universe Appstore</h1>
-			<button class="padIcon" onClick="openTab('appstore-clicker')"><img class="padImage" src="systemH/appstore/clicker/clicker.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-calculator')"><img class="padImage" src="systemH/appstore/calculator/calculator.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-todo')"><img class="padImage" src="systemH/appstore/todo/todo.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-timer')"><img class="padImage" src="systemH/appstore/timer/timer.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-dog')"><img class="padImage" src="systemH/appstore/petdog/petdog.png"></button>
-			<button class="padIcon" onClick="openTab('appstore-new')"><img class="padImage" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"></button>
-			<center>
+  			<center>
+				<h1>Universe Appstore</h1>
+				<button class="padIcon" onClick="openTab('appstore-clicker')"><img class="padImage" src="systemH/appstore/clicker/clicker.png"></button>
+				<button class="padIcon" onClick="openTab('appstore-calculator')"><img class="padImage" src="systemH/appstore/calculator/calculator.png"></button>
+				<button class="padIcon" onClick="openTab('appstore-todo')"><img class="padImage" src="systemH/appstore/todo/todo.png"></button>
+				<button class="padIcon" onClick="openTab('appstore-timer')"><img class="padImage" src="systemH/appstore/timer/timer.png"></button>
+				<button class="padIcon" onClick="openTab('appstore-dog')"><img class="padImage" src="systemH/appstore/petdog/petdog.png"></button>
+				<button class="padIcon" onClick="openTab('appstore-new')"><img class="padImage" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"></button>
 				<button class="warningButton" onClick="uninstallKeep()">Uninstall but keep saves</button><br><br>
 				<button class="warningButton" onClick="uninstallAll()">Uninstall all apps</button>
 			</center>
