@@ -11,9 +11,7 @@ document.getElementById('appstore').innerHTML = `
 				<h1>Universe Appstore</h1>
 				<button class="padIcon" onClick="openTab('appstore-clicker')"><img class="padImage" src="systemH/appstore/clicker/clicker.png"></button>
 				<button class="padIcon" onClick="openTab('appstore-calculator')"><img class="padImage" src="systemH/appstore/calculator/calculator.png"></button>
-				<button class="padIcon" onClick="openTab('appstore-todo')"><img class="padImage" src="systemH/appstore/todo/todo.png"></button>
 				<button class="padIcon" onClick="openTab('appstore-timer')"><img class="padImage" src="systemH/appstore/timer/timer.png"></button>
-				<button class="padIcon" onClick="openTab('appstore-dog')"><img class="padImage" src="systemH/appstore/petdog/petdog.png"></button>
 				<button class="padIcon" onClick="openTab('appstore-new')"><img class="padImage" src="https://webteddystudioofficial.github.io/universe-appstore/new.png"></button><br><br>
 				<button class="warningButton" onClick="uninstallKeep()">Uninstall but keep saves</button><br><br>
 				<button class="warningButton" onClick="uninstallAll()">Uninstall all apps</button>
@@ -35,28 +33,12 @@ document.getElementById('appstore').innerHTML = `
 				<button class="button" onClick="installCalculator()" id="installCalculator">Install</button>
 			</center>
 		</div>
-		<div class="tabcontent" id="appstore-todo">
-			<center>
-				<h1>AI Todo List</h1>
-				<img src="systemH/appstore/todo/todo.png" class="apsimg"><br>
-				<span>By: ChatGPT</span><br><br>
-				<button class="button" id="installTodo" onClick="installTodo()">Install</button>
-			</center>
-		</div>
 		<div class="tabcontent" id="appstore-timer">
 			<center>
 				<h1>Timer</h1>
 				<img src="systemH/appstore/timer/timer.png" class="apsimg"><br>
 				<span>By: GroupSSalt</span><br><br>
 				<button class="button" id="installTimer" onClick="installTimer()">Install</button>
-			</center>
-		</div>
-		<div class="tabcontent" id="appstore-dog">
-			<center>
-				<h1>Pet Dog</h1>
-				<img src="systemH/appstore/petdog/petdog.png" class="apsimg"><br>
-				<span>By: Veda B & GroupSSalt</span><br><br>
-				<button class="button" onClick="installDog()" id="installDog">Install</button>
 			</center>
 		</div>
 		<div class="tabcontent" id="appstore-new">
@@ -74,10 +56,8 @@ document.getElementById('appstore').innerHTML = `
 let shouldAppend = true;
 function append() {
     let srcs = [
-        "https://webteddystudioofficial.github.io/universe-appstore/todo/install.js",
         "https://webteddystudioofficial.github.io/universe-appstore/clicker/install.js",
         "https://webteddystudioofficial.github.io/universe-appstore/timer/install.js",
-        "https://webteddystudioofficial.github.io/universe-appstore/petdog/install.js",
         "https://webteddystudioofficial.github.io/universe-appstore/calculator/install.js"
     ];
 	if (shouldAppend !== false) {
